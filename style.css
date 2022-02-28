@@ -18,7 +18,23 @@ body{
     font-weight: bold;
 }
 
-/* About */
+p{
+    font-size: 14px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+/** changing class a's color */
+a.font-black{
+    color:rgb(0, 0, 0) !important;     /* line 26,  here !important is given just to make sure nothing chnges class a even bootstrap */
+}
+
+
+/**********    About      *******/
 
 #about{
     margin: 60px auto;
@@ -71,4 +87,32 @@ body{
 
 #about .icons a{
     color: rgb(0, 0, 0);
+}
+
+
+
+/*********************
+projects
+*********************/
+
+#project{
+    margin: 60px auto;  /* this will help to have gap or space b/w About and project sections */
+    width: 80%;  /* this is for spaces on card */
+}
+
+/* in project go and find h2 tag and aligne it to center */
+
+#project h2{
+    text-align: center;
+}
+
+/* from here onwards cards have taken from bootstrap */
+/* go to project id find a class card then inside it find an image tag do the changes */
+
+#project .card img{
+    width: 100%;
+}
+
+#project  .card-title{
+    font-weight: bold;
 }
