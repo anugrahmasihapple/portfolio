@@ -17,3 +17,58 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+
+/* About */
+
+#about{
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* in about id tag go to image then apply */
+#about img{
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+/* in about goto name tage and do the changes */
+
+#about .name{
+    font-size: 19px;
+}
+
+/* in about go to class .vocation and do the changes */
+
+#about .vocation{
+    font-size: 17px;
+    color: #A8A8AB;
+    margin-bottom: 10px; /*this is distance between each line */
+}
+
+/* in about go to skilsss tag and do the changes */
+
+#about .skills{
+    font-size: 14px;
+    color: #00abae;
+    margin-bottom: 10px; /* this is the margin b/w name and vocation and skills */
+}
+
+/* in about go to email class and do changes */
+#about .emails{
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+/* Now changing icons class in about id */
+#about .icons{
+    margin-top: 20px;  /* this is the margine b/w email and icons */
+    font-size: 30px;
+}
+
+/* changing icons color so go to id about then look fort a class call icons inside that look for a tag a change the color */
+
+#about .icons a{
+    color: rgb(0, 0, 0);
+}
