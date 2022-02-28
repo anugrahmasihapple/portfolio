@@ -1,0 +1,19 @@
+/*********
+common
+
+********/
+
+body{
+    font-family: "monospace", sans-serif;
+}
+
+/* this is for P tag */
+
+.font-primary{
+    color: #00abae;
+}
+
+.title-icon{
+    font-size: 20px;
+    font-weight: bold;
+}
